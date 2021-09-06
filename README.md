@@ -14,3 +14,15 @@ The aim of this project is to classify news artiles fake or real
 To get the accurately classified collection of news as real or fake i have build a deep learning  LSTM based model.
 
 Bidirectional Neural Network and LSTM based deep learning model to detect fake news from a given news corpus. This project could be practically used by any media company to automatically predict whether the circulating news is fake or not. The process could be done automatically without having humans manually review thousands of news related articles.
+
+### Dataset Description
+* train.csv: A full training dataset with the following     
+    #### attributes:
+    * id: unique id for a news article
+    * title: the title of a news article
+    * author: author of the news article
+    * text: the text of the article; could be incomplete
+    * label: a label that marks the article as potentially unreliable
+    * 1: unreliable
+    * 0: reliable
+* test.csv: A testing training dataset with all the same attributes at train.csv without the label.
