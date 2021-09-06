@@ -13,4 +13,5 @@ The aim of this project is to classify news artiles fake or real
 ## Solution 
 To get the accurately classified collection of news as real or fake i have build a deep learning  LSTM based model.
 
+Bidirectional Neural Network and LSTM based deep learning model to detect fake news from a given news corpus. 
 
